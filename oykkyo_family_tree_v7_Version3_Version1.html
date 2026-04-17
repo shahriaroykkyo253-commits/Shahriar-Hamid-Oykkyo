@@ -1,21 +1,75 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Oykkyo Family Tree v7</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Tree</title>
+    <style>
+        .ancestor {
+            font-weight: bold;
+        }
+        .generation {
+            margin: 20px 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        svg {
+            width: 2200px;
+            height: auto;
+            position: relative;
+            display: block;
+        }
+    </style>
 </head>
 <body>
-<h1>Family Tree of Oykkyo</h1>
-<ul>
-  <li>
-    <b>Oykkyo</b>
-    <ul>
-      <li>Hamida Sultana (Mother)</li>
-      <li>Cousin Name 1 (connects to Parent 1)</li>
-      <li>Cousin Name 2 (connects to Parent 2)</li>
-      
-      <!-- Add all Gen 5 cousins here -->
+    <h1>Family Tree</h1>
+    <div class="generation">
+        <div class="ancestor">Gen 1</div>
+        <div class="ancestor">Gen 2</div>
+        <div class="ancestor">Gen 3</div>
+        <div class="ancestor">Gen 4</div>
+        <div class="ancestor">Gen 5</div>
+    </div>
+    <div class="generation">
+        <div>Hamida Sultana</div>
+        <div>Amirul</div>
+        <div>Sadiqul</div>
+        <div>Bithi</div>
+        <div>Juthi</div>
+    </div>
+    <div class="generation">
+        <div></div>
+        <div>Joy, Juhi</div>
+        <div>Sami</div>
+        <div>Oyshe, Oykkyo</div>
+        <div>Diya, Nitol</div>
+        <div>Noble, Nova</div>
+    </div>
+    <div class="generation">
+        <div></div>
+        <div>Oyshe, Oykkyo</div>
+        <div>Mou</div>
+        <div>Mithu</div>
+        <div>Abir, Musabbir</div>
+        <div>Tanjil</div>
+        <div>Labonno, Hafsa</div>
+        <div>Ayon</div>
+        <div>Habiba</div>
+    </div>
+    <svg>
+        <line x1="200" y1="20" x2="200" y2="60" stroke="black" />
+        <line x1="400" y1="20" x2="400" y2="60" stroke="black" />
+        <line x1="600" y1="20" x2="600" y2="60" stroke="black" />
+        <line x1="800" y1="20" x2="800" y2="60" stroke="black" />
+        <line x1="1000" y1="20" x2="1000" y2="60" stroke="black" />
 
-    </ul>
-  </li>
-</ul>
+        <line x1="100" y1="100" x2="200" y2="60" stroke="black" />
+        <line x1="300" y1="100" x2="400" y2="60" stroke="black" />
+        <line x1="500" y1="100" x2="600" y2="60" stroke="black" />
+        <line x1="700" y1="100" x2="800" y2="60" stroke="black" />
+        <line x1="900" y1="100" x2="1000" y2="60" stroke="black" />
+
+        <!-- More lines can be added here for better visibility -->
+    </svg>
 </body>
 </html>
